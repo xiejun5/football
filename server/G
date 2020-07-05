@@ -1,0 +1,2 @@
+gcc server.c ../common/common.c ../common/udp_server.c ../common/udp_epoll.c ../common/thread_pool.c ../common/udp_client.c ../common/global.c ../common/sub_reactor.c ../common/heart_beat.c ../common/server_exit.c ../common/show_strength.c  ../common/game.c ../common/show_data_stream.c ../common/server_re_drew.c ../common/ball_status.c -lncurses -lm -pthread -o server $1 $2
+
